@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Entry</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}"
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Update Password Entry</h2>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="update-button">Update</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
