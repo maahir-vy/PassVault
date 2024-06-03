@@ -41,6 +41,6 @@ python manage.py runserver
 -Open your web browser and go to http://127.0.0.1:8000/ to view the application.
 
 #Usage
-Register/Login: Register a new account or log in with your existing credentials.
-Manage Passwords: Add, update, and delete your password entries as needed.
-Logout: Ensure you log out after your session to maintain security.
+ - Register/Login: Register a new account or log in with your existing credentials.
+  - Manage Passwords: Add, update, and delete your password entries as needed.
+- Logout: Ensure you log out after your session to maintain security.
